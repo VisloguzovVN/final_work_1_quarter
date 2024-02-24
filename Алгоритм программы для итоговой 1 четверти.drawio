@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2024-02-24T05:04:26.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="2hx4LUJ41c_TDLO_PuaS" version="23.1.6" type="device">
+  <diagram name="Страница — 1" id="tQXBRfr0np4GK7lA2x7J">
+    <mxGraphModel dx="1002" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsNULYzpXK8jpim-rPGZ-2" target="YsNULYzpXK8jpim-rPGZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsNULYzpXK8jpim-rPGZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-3" value="Пользователь вводит массив" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsNULYzpXK8jpim-rPGZ-18" target="YsNULYzpXK8jpim-rPGZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsNULYzpXK8jpim-rPGZ-18" target="YsNULYzpXK8jpim-rPGZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-18" value="Перебираем каждый элемент массива и определяем длину строки &lt;br&gt;элемента массива на предмет &amp;lt;=3" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="159.5" y="250" width="281" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsNULYzpXK8jpim-rPGZ-20" target="YsNULYzpXK8jpim-rPGZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-20" value="Добавить элемент в новый массив и присвоить индекс элементу массива начиная от 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="255" width="139" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsNULYzpXK8jpim-rPGZ-22" target="YsNULYzpXK8jpim-rPGZ-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="450" />
+              <mxPoint x="140" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-22" value="Добавляем +1 к счетчику количества элементов массива" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsNULYzpXK8jpim-rPGZ-24" target="YsNULYzpXK8jpim-rPGZ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-24" value="Вывести новый массив" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="610.5" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-25" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610.5" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-28" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="251" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YsNULYzpXK8jpim-rPGZ-29" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="358" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
